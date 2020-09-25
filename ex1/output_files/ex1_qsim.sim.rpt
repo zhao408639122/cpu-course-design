@@ -1,0 +1,485 @@
+Simulator report for ex1_qsim
+Fri Sep 25 20:05:53 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 245 nodes    ;
+; Simulation Coverage         ;      56.33 % ;
+; Total Number of Transitions ; 1083         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
++-----------------------------+--------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                               ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                             ; Default Value ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                          ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                 ;               ;
+; Vector input source                                                                        ; D:/work/quartus/cpu-course-design/ex1/Waveform1.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                  ; On            ;
+; Check outputs                                                                              ; Off                                                 ; Off           ;
+; Report simulation coverage                                                                 ; On                                                  ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                  ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                  ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                  ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                 ; Off           ;
+; Detect glitches                                                                            ; Off                                                 ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                 ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                 ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                 ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                 ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                  ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                          ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                 ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                 ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport                                           ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport                                           ; Transport     ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++------------------------------------------------------------------------------------------+
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ALTSYNCRAM ;
++------------------------------------------------------------------------------------------+
+Please refer to fitter text-based report (*.fit.rpt) to view logical memory report content in ASCII.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      56.33 % ;
+; Total nodes checked                                 ; 245          ;
+; Total output ports checked                          ; 245          ;
+; Total output ports with complete 1/0-value coverage ; 138          ;
+; Total output ports with no 1/0-value coverage       ; 69           ;
+; Total output ports with no 1-value coverage         ; 85           ;
+; Total output ports with no 0-value coverage         ; 91           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                            ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                   ; Output Port Name                                                                      ; Output Port Type ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; |ex1|icpr0                                                                                  ; |ex1|icpr0                                                                            ; pin_out          ;
+; |ex1|clk                                                                                    ; |ex1|clk                                                                              ; out              ;
+; |ex1|icpr1                                                                                  ; |ex1|icpr1                                                                            ; pin_out          ;
+; |ex1|icpr2                                                                                  ; |ex1|icpr2                                                                            ; pin_out          ;
+; |ex1|debug1[3]                                                                              ; |ex1|debug1[3]                                                                        ; pin_out          ;
+; |ex1|debug1[2]                                                                              ; |ex1|debug1[2]                                                                        ; pin_out          ;
+; |ex1|debug1[1]                                                                              ; |ex1|debug1[1]                                                                        ; pin_out          ;
+; |ex1|debug1[0]                                                                              ; |ex1|debug1[0]                                                                        ; pin_out          ;
+; |ex1|debug2[23]                                                                             ; |ex1|debug2[23]                                                                       ; pin_out          ;
+; |ex1|debug2[22]                                                                             ; |ex1|debug2[22]                                                                       ; pin_out          ;
+; |ex1|debug2[21]                                                                             ; |ex1|debug2[21]                                                                       ; pin_out          ;
+; |ex1|debug2[20]                                                                             ; |ex1|debug2[20]                                                                       ; pin_out          ;
+; |ex1|debug2[19]                                                                             ; |ex1|debug2[19]                                                                       ; pin_out          ;
+; |ex1|debug2[18]                                                                             ; |ex1|debug2[18]                                                                       ; pin_out          ;
+; |ex1|debug2[17]                                                                             ; |ex1|debug2[17]                                                                       ; pin_out          ;
+; |ex1|debug2[16]                                                                             ; |ex1|debug2[16]                                                                       ; pin_out          ;
+; |ex1|debug2[8]                                                                              ; |ex1|debug2[8]                                                                        ; pin_out          ;
+; |ex1|debug2[7]                                                                              ; |ex1|debug2[7]                                                                        ; pin_out          ;
+; |ex1|debug2[6]                                                                              ; |ex1|debug2[6]                                                                        ; pin_out          ;
+; |ex1|debug2[5]                                                                              ; |ex1|debug2[5]                                                                        ; pin_out          ;
+; |ex1|debug2[4]                                                                              ; |ex1|debug2[4]                                                                        ; pin_out          ;
+; |ex1|debug2[3]                                                                              ; |ex1|debug2[3]                                                                        ; pin_out          ;
+; |ex1|debug2[2]                                                                              ; |ex1|debug2[2]                                                                        ; pin_out          ;
+; |ex1|debug2[1]                                                                              ; |ex1|debug2[1]                                                                        ; pin_out          ;
+; |ex1|debug2[0]                                                                              ; |ex1|debug2[0]                                                                        ; pin_out          ;
+; |ex1|F[0]                                                                                   ; |ex1|F[0]                                                                             ; pin_out          ;
+; |ex1|F[1]                                                                                   ; |ex1|F[1]                                                                             ; pin_out          ;
+; |ex1|F[2]                                                                                   ; |ex1|F[2]                                                                             ; pin_out          ;
+; |ex1|F[3]                                                                                   ; |ex1|F[3]                                                                             ; pin_out          ;
+; |ex1|F[4]                                                                                   ; |ex1|F[4]                                                                             ; pin_out          ;
+; |ex1|F[5]                                                                                   ; |ex1|F[5]                                                                             ; pin_out          ;
+; |ex1|F[6]                                                                                   ; |ex1|F[6]                                                                             ; pin_out          ;
+; |ex1|F[7]                                                                                   ; |ex1|F[7]                                                                             ; pin_out          ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|104                                                    ; |ex1|upc:inst2|74161:inst|f74161:sub|104                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|110                                                    ; |ex1|upc:inst2|74161:inst|f74161:sub|110                                              ; regout           ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|107                                                    ; |ex1|upc:inst2|74161:inst|f74161:sub|107                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|94                                                     ; |ex1|upc:inst2|74161:inst|f74161:sub|94                                               ; out0             ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|99                                                     ; |ex1|upc:inst2|74161:inst|f74161:sub|99                                               ; regout           ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|97                                                     ; |ex1|upc:inst2|74161:inst|f74161:sub|97                                               ; out0             ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|84                                                     ; |ex1|upc:inst2|74161:inst|f74161:sub|84                                               ; out0             ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|87                                                     ; |ex1|upc:inst2|74161:inst|f74161:sub|87                                               ; regout           ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|90                                                     ; |ex1|upc:inst2|74161:inst|f74161:sub|90                                               ; out0             ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|81                                                     ; |ex1|upc:inst2|74161:inst|f74161:sub|81                                               ; out0             ;
+; |ex1|upc:inst2|74161:inst|f74161:sub|9                                                      ; |ex1|upc:inst2|74161:inst|f74161:sub|9                                                ; regout           ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|80                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|80                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|78                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|78                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|79                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|79                                              ; out0             ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a0  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[0]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a1  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[1]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a2  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[2]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a3  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[3]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a4  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[4]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a5  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[5]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a6  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[6]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a7  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[7]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a8  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[8]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a16 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[16] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a17 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[17] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a18 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[18] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a19 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[19] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a20 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[20] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a21 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[21] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a22 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[22] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a23 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[23] ; portadataout0    ;
+; |ex1|alu:inst6|inst9                                                                        ; |ex1|alu:inst6|inst9                                                                  ; out0             ;
+; |ex1|alu:inst6|inst7                                                                        ; |ex1|alu:inst6|inst7                                                                  ; out0             ;
+; |ex1|alu:inst6|inst8                                                                        ; |ex1|alu:inst6|inst8                                                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|81                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|81                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|54                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|54                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|44                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|44                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|11                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|11                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|79                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|79                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|66                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|66                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|46                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|46                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|8                                          ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|8                                    ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|7                                          ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|7                                    ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|82                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|82                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|55                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|55                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|48                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|48                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|18                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|18                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|17                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|17                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|75                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|75                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|67                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|67                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|69                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|69                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|77                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|77                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|56                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|56                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|51                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|51                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|21                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|21                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|74                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|74                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|73                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|73                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|71                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|71                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|80                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|80                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|53                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|53                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|64                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|64                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst6                                      ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst6                                ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst18                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst18                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|63                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|63                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|34                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|34                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|91                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|91                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst5                                      ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst5                                ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst4                                      ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst4                                ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst2                                      ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst2                                ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst1                                      ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst1                                ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst22                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst22                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst25                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst25                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|60                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|60                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|32                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|32                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst20                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst20                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst16                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst16                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst14                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst14                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst12                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst12                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst35                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst35                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst37                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst37                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|97                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|97                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|92                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|92                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|101                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|101                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst33                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst33                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst32                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst32                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst30                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst30                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst28                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst28                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst26                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst26                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst53                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst53                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst55                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst55                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|108                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|108                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|109                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|109                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst51                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst51                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst49                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst49                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst48                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst48                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst46                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst46                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst44                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst44                               ; out0             ;
+; |ex1|alu:inst6|74273:inst3|19                                                               ; |ex1|alu:inst6|74273:inst3|19                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst3|18                                                               ; |ex1|alu:inst6|74273:inst3|18                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst3|17                                                               ; |ex1|alu:inst6|74273:inst3|17                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst3|16                                                               ; |ex1|alu:inst6|74273:inst3|16                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst3|15                                                               ; |ex1|alu:inst6|74273:inst3|15                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst3|14                                                               ; |ex1|alu:inst6|74273:inst3|14                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst3|13                                                               ; |ex1|alu:inst6|74273:inst3|13                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst3|12                                                               ; |ex1|alu:inst6|74273:inst3|12                                                         ; regout           ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                               ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                   ; Output Port Name                                                                      ; Output Port Type ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; |ex1|clr                                                                                    ; |ex1|clr                                                                              ; out              ;
+; |ex1|debug1[7]                                                                              ; |ex1|debug1[7]                                                                        ; pin_out          ;
+; |ex1|debug1[6]                                                                              ; |ex1|debug1[6]                                                                        ; pin_out          ;
+; |ex1|debug1[5]                                                                              ; |ex1|debug1[5]                                                                        ; pin_out          ;
+; |ex1|debug2[15]                                                                             ; |ex1|debug2[15]                                                                       ; pin_out          ;
+; |ex1|debug2[14]                                                                             ; |ex1|debug2[14]                                                                       ; pin_out          ;
+; |ex1|debug2[13]                                                                             ; |ex1|debug2[13]                                                                       ; pin_out          ;
+; |ex1|debug2[12]                                                                             ; |ex1|debug2[12]                                                                       ; pin_out          ;
+; |ex1|debug2[11]                                                                             ; |ex1|debug2[11]                                                                       ; pin_out          ;
+; |ex1|debug2[10]                                                                             ; |ex1|debug2[10]                                                                       ; pin_out          ;
+; |ex1|debug2[9]                                                                              ; |ex1|debug2[9]                                                                        ; pin_out          ;
+; |ex1|Debug3[1]                                                                              ; |ex1|Debug3[1]                                                                        ; pin_out          ;
+; |ex1|Debug3[3]                                                                              ; |ex1|Debug3[3]                                                                        ; pin_out          ;
+; |ex1|Debug3[5]                                                                              ; |ex1|Debug3[5]                                                                        ; pin_out          ;
+; |ex1|Debug3[7]                                                                              ; |ex1|Debug3[7]                                                                        ; pin_out          ;
+; |ex1|Debug4[0]                                                                              ; |ex1|Debug4[0]                                                                        ; pin_out          ;
+; |ex1|Debug4[2]                                                                              ; |ex1|Debug4[2]                                                                        ; pin_out          ;
+; |ex1|Debug4[4]                                                                              ; |ex1|Debug4[4]                                                                        ; pin_out          ;
+; |ex1|Debug4[6]                                                                              ; |ex1|Debug4[6]                                                                        ; pin_out          ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|110                                                   ; |ex1|upc:inst2|74161:inst1|f74161:sub|110                                             ; regout           ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|107                                                   ; |ex1|upc:inst2|74161:inst1|f74161:sub|107                                             ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|106                                                   ; |ex1|upc:inst2|74161:inst1|f74161:sub|106                                             ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|94                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|94                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|99                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|99                                              ; regout           ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|97                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|97                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|96                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|96                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|84                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|84                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|87                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|87                                              ; regout           ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|90                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|90                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|89                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|89                                              ; out0             ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a9  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[9]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a10 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[10] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a11 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[11] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a12 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[12] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a13 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[13] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a14 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[14] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a15 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[15] ; portadataout0    ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|47                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|47                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|14                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|14                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|13                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|13                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|12                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|12                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|9                                          ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|9                                    ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|65                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|65                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|6                                          ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|6                                    ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|19                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|19                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|16                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|16                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|68                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|68                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|52                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|52                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|24                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|24                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|23                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|23                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|22                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|22                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|72                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|72                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|70                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|70                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|35                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|35                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|83                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|83                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst3                                      ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst3                                ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst                                       ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst                                 ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|59                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|59                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|29                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|29                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|26                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|26                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|33                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|33                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst15                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst15                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst13                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst13                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst11                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst11                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|93                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|93                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|100                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|100                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst31                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst31                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst29                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst29                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst27                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst27                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|107                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|107                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|103                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|103                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|102                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|102                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|110                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|110                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst50                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst50                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst47                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst47                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst45                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst45                               ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst43                                     ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|inst43                               ; out0             ;
+; |ex1|alu:inst6|74273:inst1|19                                                               ; |ex1|alu:inst6|74273:inst1|19                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|17                                                               ; |ex1|alu:inst6|74273:inst1|17                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|15                                                               ; |ex1|alu:inst6|74273:inst1|15                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|13                                                               ; |ex1|alu:inst6|74273:inst1|13                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst|18                                                                ; |ex1|alu:inst6|74273:inst|18                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|16                                                                ; |ex1|alu:inst6|74273:inst|16                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|14                                                                ; |ex1|alu:inst6|74273:inst|14                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|12                                                                ; |ex1|alu:inst6|74273:inst|12                                                          ; regout           ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                               ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                   ; Output Port Name                                                                      ; Output Port Type ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; |ex1|clr                                                                                    ; |ex1|clr                                                                              ; out              ;
+; |ex1|debug1[7]                                                                              ; |ex1|debug1[7]                                                                        ; pin_out          ;
+; |ex1|debug1[6]                                                                              ; |ex1|debug1[6]                                                                        ; pin_out          ;
+; |ex1|debug1[5]                                                                              ; |ex1|debug1[5]                                                                        ; pin_out          ;
+; |ex1|debug1[4]                                                                              ; |ex1|debug1[4]                                                                        ; pin_out          ;
+; |ex1|debug2[15]                                                                             ; |ex1|debug2[15]                                                                       ; pin_out          ;
+; |ex1|debug2[14]                                                                             ; |ex1|debug2[14]                                                                       ; pin_out          ;
+; |ex1|debug2[13]                                                                             ; |ex1|debug2[13]                                                                       ; pin_out          ;
+; |ex1|debug2[12]                                                                             ; |ex1|debug2[12]                                                                       ; pin_out          ;
+; |ex1|debug2[11]                                                                             ; |ex1|debug2[11]                                                                       ; pin_out          ;
+; |ex1|debug2[10]                                                                             ; |ex1|debug2[10]                                                                       ; pin_out          ;
+; |ex1|debug2[9]                                                                              ; |ex1|debug2[9]                                                                        ; pin_out          ;
+; |ex1|Debug3[0]                                                                              ; |ex1|Debug3[0]                                                                        ; pin_out          ;
+; |ex1|Debug3[1]                                                                              ; |ex1|Debug3[1]                                                                        ; pin_out          ;
+; |ex1|Debug3[2]                                                                              ; |ex1|Debug3[2]                                                                        ; pin_out          ;
+; |ex1|Debug3[3]                                                                              ; |ex1|Debug3[3]                                                                        ; pin_out          ;
+; |ex1|Debug3[4]                                                                              ; |ex1|Debug3[4]                                                                        ; pin_out          ;
+; |ex1|Debug3[5]                                                                              ; |ex1|Debug3[5]                                                                        ; pin_out          ;
+; |ex1|Debug3[6]                                                                              ; |ex1|Debug3[6]                                                                        ; pin_out          ;
+; |ex1|Debug3[7]                                                                              ; |ex1|Debug3[7]                                                                        ; pin_out          ;
+; |ex1|Debug4[0]                                                                              ; |ex1|Debug4[0]                                                                        ; pin_out          ;
+; |ex1|Debug4[1]                                                                              ; |ex1|Debug4[1]                                                                        ; pin_out          ;
+; |ex1|Debug4[2]                                                                              ; |ex1|Debug4[2]                                                                        ; pin_out          ;
+; |ex1|Debug4[3]                                                                              ; |ex1|Debug4[3]                                                                        ; pin_out          ;
+; |ex1|Debug4[4]                                                                              ; |ex1|Debug4[4]                                                                        ; pin_out          ;
+; |ex1|Debug4[5]                                                                              ; |ex1|Debug4[5]                                                                        ; pin_out          ;
+; |ex1|Debug4[6]                                                                              ; |ex1|Debug4[6]                                                                        ; pin_out          ;
+; |ex1|Debug4[7]                                                                              ; |ex1|Debug4[7]                                                                        ; pin_out          ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|110                                                   ; |ex1|upc:inst2|74161:inst1|f74161:sub|110                                             ; regout           ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|107                                                   ; |ex1|upc:inst2|74161:inst1|f74161:sub|107                                             ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|106                                                   ; |ex1|upc:inst2|74161:inst1|f74161:sub|106                                             ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|94                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|94                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|99                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|99                                              ; regout           ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|97                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|97                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|96                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|96                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|84                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|84                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|87                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|87                                              ; regout           ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|90                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|90                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|89                                                    ; |ex1|upc:inst2|74161:inst1|f74161:sub|89                                              ; out0             ;
+; |ex1|upc:inst2|74161:inst1|f74161:sub|9                                                     ; |ex1|upc:inst2|74161:inst1|f74161:sub|9                                               ; regout           ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a9  ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[9]  ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a10 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[10] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a11 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[11] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a12 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[12] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a13 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[13] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a14 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[14] ; portadataout0    ;
+; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|ram_block1a15 ; |ex1|rom:inst3|altsyncram:altsyncram_component|altsyncram_ce91:auto_generated|q_a[15] ; portadataout0    ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|47                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|47                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|14                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|14                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|13                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|13                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|12                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|12                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|9                                          ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|9                                    ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|43                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|43                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|6                                          ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|6                                    ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|19                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|19                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|45                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|45                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|16                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|16                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|52                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|52                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|24                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|24                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|23                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|23                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|22                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|22                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|35                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|35                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|78                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|78                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|83                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|83                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|59                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|59                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|29                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|29                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|26                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|26                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|33                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|33                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|93                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|93                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|99                                         ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|99                                   ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|100                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|100                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|107                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|107                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|103                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|103                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|102                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|102                                  ; out0             ;
+; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|110                                        ; |ex1|alu:inst6|8bitAdderBus:inst6|8bitAdder:inst|110                                  ; out0             ;
+; |ex1|alu:inst6|74273:inst1|19                                                               ; |ex1|alu:inst6|74273:inst1|19                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|18                                                               ; |ex1|alu:inst6|74273:inst1|18                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|17                                                               ; |ex1|alu:inst6|74273:inst1|17                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|16                                                               ; |ex1|alu:inst6|74273:inst1|16                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|15                                                               ; |ex1|alu:inst6|74273:inst1|15                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|14                                                               ; |ex1|alu:inst6|74273:inst1|14                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|13                                                               ; |ex1|alu:inst6|74273:inst1|13                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst1|12                                                               ; |ex1|alu:inst6|74273:inst1|12                                                         ; regout           ;
+; |ex1|alu:inst6|74273:inst|19                                                                ; |ex1|alu:inst6|74273:inst|19                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|18                                                                ; |ex1|alu:inst6|74273:inst|18                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|17                                                                ; |ex1|alu:inst6|74273:inst|17                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|16                                                                ; |ex1|alu:inst6|74273:inst|16                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|15                                                                ; |ex1|alu:inst6|74273:inst|15                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|14                                                                ; |ex1|alu:inst6|74273:inst|14                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|13                                                                ; |ex1|alu:inst6|74273:inst|13                                                          ; regout           ;
+; |ex1|alu:inst6|74273:inst|12                                                                ; |ex1|alu:inst6|74273:inst|12                                                          ; regout           ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Fri Sep 25 20:05:53 2020
+Info: Command: quartus_sim --simulation_results_format=VWF ex1 -c ex1_qsim
+Info (324025): Using vector source file "D:/work/quartus/cpu-course-design/ex1/Waveform1.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      56.33 %
+Info (328052): Number of transitions in simulation is 1083
+Info (324045): Vector file ex1_qsim.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4457 megabytes
+    Info: Processing ended: Fri Sep 25 20:05:53 2020
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
