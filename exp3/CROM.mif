@@ -1,0 +1,94 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=32;
+DEPTH=256;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	000  :   20000080;
+	001  :   00000200;
+	002  :   04000000;
+	[003..00F]  :   00000000;
+	010  :   20008090;
+	011  :   003E3000;
+	012  :   02000000;
+	[013..01F]  :   00000000;
+	020  :   20008090;
+	021  :   003E2400;
+	022  :   20008110;
+	023  :   003E3000;
+	024  :   00000200;
+	025  :   02000000;
+	[026..02F]  :   00000000;
+	030  :   20008100;
+	031  :   003E3000;
+	032  :   02000000;
+	[033..03F]  :   00000000;
+	040  :   20008090;
+	041  :   003E2400;
+	042  :   40002120;
+	043  :   00000200;
+	044  :   02000000;
+	[045..04F]  :   00000000;
+	050  :   40002120;
+	051  :   02000000;
+	[052..05F]  :   00000000;
+	060  :   0000C000;
+	061  :   003E2800;
+	062  :   002A3000;
+	063  :   02000000;
+	[064..06F]  :   00000000;
+	070  :   0000C008;
+	071  :   003E2400;
+	072  :   002A3000;
+	073  :   02000000;
+	[074..07F]  :   00000000;
+	080  :   0000C000;
+	081  :   00243000;
+	082  :   02000000;
+	[083..08F]  :   00000000;
+	090  :   0000C000;
+	091  :   00193000;
+	092  :   02000000;
+	[093..09F]  :   00000000;
+	0A0  :   0000C000;
+	0A1  :   00403000;
+	0A2  :   02000000;
+	[0A3..0AF]  :   00000000;
+	0B0  :   0000C000;
+	0B1  :   00803004;
+	0B2  :   02000000;
+	[0B3..0BF]  :   00000000;
+	0C0  :   0000C000;
+	0C1  :   00803000;
+	0C2  :   02000000;
+	[0C3..0CF]  :   00000000;
+	0D0  :   20008090;
+	0D1  :   003E2000;
+	0D2  :   10000200;
+	0D3  :   02000000;
+	[0D4..0DF]  :   00000000;
+	0E0  :   20008090;
+	0E1  :   003E2000;
+	0E2  :   08000200;
+	0E3  :   02000000;
+	[0E4..0EF]  :   00000000;
+	0F0  :   82000000;
+	[0F1..0FF]  :   00000000;
+END;
