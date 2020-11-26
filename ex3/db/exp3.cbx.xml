@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="exp3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|exp3|ALU:exp3_ALU_1|divider:ALU_divider_1|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_0ip.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|exp3|ALU:exp3_ALU_1|multiplier:ALU_multiplier_1|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_p5n.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|exp3|CROM:exp3_CROM_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_eqb1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|exp3|RAM:exp3_RAM_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_d1i1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

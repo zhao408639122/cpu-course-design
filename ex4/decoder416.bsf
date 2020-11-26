@@ -1,0 +1,148 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 144 336)
+	(text "decoder416" (rect 5 0 84 16)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 301 31 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "D[3..0]" (rect 0 0 46 16)(font "Arial" (font_size 8)))
+		(text "D[3..0]" (rect 21 27 67 43)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 128 32)
+		(output)
+		(text "Q0" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q0" (rect 87 27 107 43)(font "Arial" (font_size 8)))
+		(line (pt 128 32)(pt 112 32))
+	)
+	(port
+		(pt 128 48)
+		(output)
+		(text "Q1" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q1" (rect 87 43 107 59)(font "Arial" (font_size 8)))
+		(line (pt 128 48)(pt 112 48))
+	)
+	(port
+		(pt 128 64)
+		(output)
+		(text "Q2" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q2" (rect 87 59 107 75)(font "Arial" (font_size 8)))
+		(line (pt 128 64)(pt 112 64))
+	)
+	(port
+		(pt 128 80)
+		(output)
+		(text "Q3" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q3" (rect 87 75 107 91)(font "Arial" (font_size 8)))
+		(line (pt 128 80)(pt 112 80))
+	)
+	(port
+		(pt 128 96)
+		(output)
+		(text "Q4" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q4" (rect 87 91 107 107)(font "Arial" (font_size 8)))
+		(line (pt 128 96)(pt 112 96))
+	)
+	(port
+		(pt 128 112)
+		(output)
+		(text "Q5" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q5" (rect 87 107 107 123)(font "Arial" (font_size 8)))
+		(line (pt 128 112)(pt 112 112))
+	)
+	(port
+		(pt 128 128)
+		(output)
+		(text "Q6" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q6" (rect 87 123 107 139)(font "Arial" (font_size 8)))
+		(line (pt 128 128)(pt 112 128))
+	)
+	(port
+		(pt 128 144)
+		(output)
+		(text "Q7" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q7" (rect 87 139 107 155)(font "Arial" (font_size 8)))
+		(line (pt 128 144)(pt 112 144))
+	)
+	(port
+		(pt 128 160)
+		(output)
+		(text "Q8" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q8" (rect 87 155 107 171)(font "Arial" (font_size 8)))
+		(line (pt 128 160)(pt 112 160))
+	)
+	(port
+		(pt 128 176)
+		(output)
+		(text "Q9" (rect 0 0 20 16)(font "Arial" (font_size 8)))
+		(text "Q9" (rect 87 171 107 187)(font "Arial" (font_size 8)))
+		(line (pt 128 176)(pt 112 176))
+	)
+	(port
+		(pt 128 192)
+		(output)
+		(text "Q10" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "Q10" (rect 79 187 107 203)(font "Arial" (font_size 8)))
+		(line (pt 128 192)(pt 112 192))
+	)
+	(port
+		(pt 128 208)
+		(output)
+		(text "Q11" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "Q11" (rect 79 203 107 219)(font "Arial" (font_size 8)))
+		(line (pt 128 208)(pt 112 208))
+	)
+	(port
+		(pt 128 224)
+		(output)
+		(text "Q12" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "Q12" (rect 79 219 107 235)(font "Arial" (font_size 8)))
+		(line (pt 128 224)(pt 112 224))
+	)
+	(port
+		(pt 128 240)
+		(output)
+		(text "Q13" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "Q13" (rect 79 235 107 251)(font "Arial" (font_size 8)))
+		(line (pt 128 240)(pt 112 240))
+	)
+	(port
+		(pt 128 256)
+		(output)
+		(text "Q14" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "Q14" (rect 79 251 107 267)(font "Arial" (font_size 8)))
+		(line (pt 128 256)(pt 112 256))
+	)
+	(port
+		(pt 128 272)
+		(output)
+		(text "Q15" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "Q15" (rect 79 267 107 283)(font "Arial" (font_size 8)))
+		(line (pt 128 272)(pt 112 272))
+	)
+	(drawing
+		(rectangle (rect 16 16 112 304))
+	)
+)
